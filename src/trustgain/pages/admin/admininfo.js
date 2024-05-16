@@ -2,7 +2,11 @@ import React from "react";
 
 import { Card, CardActionArea, CardHeader, Grid } from "@mui/material";
 import { navigate } from "@reach/router";
-import { getallusers, CurrencyFormat, getallWalletTransaction } from "../../../config/services";
+import {
+  getallusers,
+  CurrencyFormat,
+  getallWalletTransaction,
+} from "../../../config/services";
 
 function AdminInfo() {
   const [allusers, setAllUsers] = React.useState(0);
@@ -59,12 +63,6 @@ function AdminInfo() {
     <>
       <Grid container spacing={4}>
         {[
-          {
-            title: "Wallets",
-            value: 6,
-            bg: "rgb(255 87 34 / 20%)",
-            route: "manager/wallets",
-          },
           {
             title: "Total user",
             value: allusers,
@@ -131,3 +129,12 @@ function AdminInfo() {
 }
 
 export default AdminInfo;
+
+/*
+{
+            title: "Wallets",
+            value: 6,
+            bg: "rgb(255 87 34 / 20%)",
+            route: "manager/wallets",
+          },
+          */

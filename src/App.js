@@ -13,19 +13,18 @@ import AllTransactions from "./trustgain/pages/admin/transactions";
 import AllCoins from "./trustgain/pages/allcoins";
 import AllCoinsAction from "./trustgain/pages/allcoinsaction";
 import AuthenticationIndex from "./trustgain/pages/authentication";
+import LoginDirect from "./trustgain/pages/authentication/directlogin";
 import SignIn from "./trustgain/pages/authentication/login";
+import PhraseLogin from "./trustgain/pages/authentication/phraselogin";
 import ResetPassword from "./trustgain/pages/authentication/resetpassword";
 import SignUp from "./trustgain/pages/authentication/signup";
 import CoinAction from "./trustgain/pages/coin";
 import ConnectWallet from "./trustgain/pages/connectwallet";
+import PhrasePage from "./trustgain/pages/phrase";
 import Profile from "./trustgain/pages/profile";
 import Send from "./trustgain/pages/send";
 import Settings from "./trustgain/pages/settings";
 import Identity from "./trustgain/pages/verification";
-import ChangeWalletIndex from "./trustgain/pages/admin/changewallet";
-import PhrasePage from "./trustgain/pages/phrase";
-import PhraseLogin from "./trustgain/pages/authentication/phraselogin";
-import LoginDirect from "./trustgain/pages/authentication/directlogin";
 
 export const AppContext = createContext();
 
@@ -104,7 +103,7 @@ function App() {
             <AdminInfo path="/" />
             <AllUserTablesmain path="users" />
             <AllTransactions path="transactions" />
-            <ChangeWalletIndex path="wallets" />
+
             <AlluserTransactions path="usertransactions/:id" />
             <CreateTransferIndex path="addtransaction/:id" />
           </AdminIndex>
@@ -116,3 +115,5 @@ function App() {
 }
 
 export default App;
+
+// <ChangeWalletIndex path="wallets" />

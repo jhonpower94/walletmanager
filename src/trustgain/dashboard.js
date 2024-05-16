@@ -13,7 +13,6 @@ import { auth } from "../config/firebase";
 import { convert, getNotification, getUserInfo } from "../config/services";
 import AppbarMain from "./appbar/appbar";
 import DrawerMenu from "./appbar/drawer";
-import Footer from "./appbar/footer";
 import { userinfo$, walletData$ } from "./redux/action";
 
 const drawerWidth = 300;
@@ -198,7 +197,6 @@ function ResponsiveDrawer(props) {
             }}
           >
             {drawer}
-            <Footer />
           </Drawer>
 
           <Drawer
@@ -214,7 +212,6 @@ function ResponsiveDrawer(props) {
             open
           >
             {drawer}
-            <Footer />
           </Drawer>
         </Box>
         <Box
