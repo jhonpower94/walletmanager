@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "cryptokneit",
+    "ck": "cryptokneit",
+    "tg": "trustgain-ad16c"
+  },
+  "targets": {
+    "cryptokneit": {
+      "hosting": {
+        "ck": [
+          "cryptokneitaccount"
+        ]
+      }
+    }
+  }
+}
