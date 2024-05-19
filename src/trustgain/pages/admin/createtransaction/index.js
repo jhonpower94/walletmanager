@@ -28,7 +28,7 @@ const CreateTransferIndex = ({ id }) => {
         { balance: eth_balance, title: "ETH", cointype: "eth_balance" },
         {
           balance: usdt_balance,
-          title: "USDT (TRC20)",
+          title: "USDT(TRC20)",
           cointype: "usdt_balance",
         },
         {

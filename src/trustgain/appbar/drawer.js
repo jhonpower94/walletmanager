@@ -1,21 +1,21 @@
 import {
-  AccountBalance,
-  AccountCircle,
-  GridViewRounded,
-  HomeSharp,
-  PersonSharp,
-  ToggleOnSharp,
-  VerifiedUserSharp
+    AccountBalance,
+    AccountCircle,
+    GridViewRounded,
+    HomeSharp,
+    PersonSharp,
+    ToggleOnSharp,
+    VerifiedUserSharp
 } from "@mui/icons-material";
 import {
-  Avatar,
-  Divider,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
+    Avatar,
+    Divider,
+    List,
+    ListItem,
+    ListItemAvatar,
+    ListItemButton,
+    ListItemIcon,
+    ListItemText,
 } from "@mui/material";
 import { blue } from "@mui/material/colors";
 import { useTheme } from "@mui/material/styles";
@@ -45,7 +45,7 @@ function DrawerMenu({ action }) {
         </ListItemIcon>
         <ListItemText
           sx={{ my: 0 }}
-          primary="Cryptokneit"
+          primary="Cambit"
           primaryTypographyProps={{
             fontSize: 25,
             fontWeight: "medium",

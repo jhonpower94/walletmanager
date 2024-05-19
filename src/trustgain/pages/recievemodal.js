@@ -1,12 +1,12 @@
 import {
-  Box,
-  CircularProgress,
-  List,
-  ListItem,
-  ListItemSecondaryAction,
-  ListItemText,
-  ListSubheader,
-  Typography,
+    Box,
+    CircularProgress,
+    List,
+    ListItem,
+    ListItemSecondaryAction,
+    ListItemText,
+    ListSubheader,
+    Typography,
 } from "@mui/material";
 import Dialog from "@mui/material/Dialog";
 import { useTheme } from "@mui/material/styles";
@@ -19,8 +19,8 @@ import { BootstrapButton } from "../custom";
 import "../style.scoped.css";
 import { CurrencyFormat } from "../../config/services";
 import {
-  convertTimestamp,
-  convertTimestampTime,
+    convertTimestamp,
+    convertTimestampTime,
 } from "../../component/component";
 
 export default function ResponsiveDialog({ open, handleClose, coin, address }) {
@@ -50,7 +50,7 @@ export default function ResponsiveDialog({ open, handleClose, coin, address }) {
         return "BEP20";
       case "TRON":
         return "TRC20";
-      case "USDT (TRC20)":
+      case "USDT(TRC20)":
         return "TRC20";
       case "USDT(ERC20)":
         return "ERC20";

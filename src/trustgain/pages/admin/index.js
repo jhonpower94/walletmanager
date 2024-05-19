@@ -44,7 +44,7 @@ function AdminIndex(props) {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            Cryptokneit admin
+            Cambit admin
           </Typography>
         </Toolbar>
       </AppBar>

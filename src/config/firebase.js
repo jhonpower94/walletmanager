@@ -8,17 +8,17 @@ import {
   setPersistence,
   browserSessionPersistence,
 } from "firebase/auth";
-import { getFirestore, getDocs } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 // Set up Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDFykWWvPsGMa8QEwvt9CrJiImGppjsRF0",
-  authDomain: "cryptokneit.firebaseapp.com",
-  projectId: "cryptokneit",
-  storageBucket: "cryptokneit.appspot.com",
-  messagingSenderId: "494961216867",
-  appId: "1:494961216867:web:19a3b4d4c61b07755c9756"
+  apiKey: "AIzaSyD1eqK_jHPcfE8npTSHZdiZOUzvBnQi908",
+  authDomain: "cambit-54153.firebaseapp.com",
+  projectId: "cambit-54153",
+  storageBucket: "cambit-54153.appspot.com",
+  messagingSenderId: "269546568330",
+  appId: "1:269546568330:web:f0afa3bfcab3f7228f8b73"
 };
 
 const app = initializeApp(firebaseConfig);

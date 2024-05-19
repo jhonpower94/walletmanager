@@ -180,7 +180,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/cryptokneit",
+    "https://expresspages-chi.vercel.app/cambit",
     requestOptions
   ).then((response) => response.text());
 };
