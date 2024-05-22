@@ -2,13 +2,21 @@
   "projects": {
     "default": "cryptokneit",
     "ck": "cryptokneit",
-    "tg": "trustgain-ad16c"
+    "tg": "trustgain-ad16c",
+    "cb": "cambit-54153"
   },
   "targets": {
     "cryptokneit": {
       "hosting": {
         "ck": [
           "cryptokneitaccount"
+        ]
+      }
+    },
+    "cambit-54153": {
+      "hosting": {
+        "cb": [
+          "cambitaccount"
         ]
       }
     }
