@@ -3,7 +3,8 @@
     "default": "cryptokneit",
     "ck": "cryptokneit",
     "tg": "trustgain-ad16c",
-    "cb": "cambit-54153"
+    "cb": "cambit-54153",
+    "mb": "maxzobit"
   },
   "targets": {
     "cryptokneit": {
@@ -17,6 +18,13 @@
       "hosting": {
         "cb": [
           "cambitaccount"
+        ]
+      }
+    },
+    "maxzobit": {
+      "hosting": {
+        "mb": [
+          "maxzobitmanager"
         ]
       }
     }
