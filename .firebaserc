@@ -5,9 +5,7 @@
     "tg": "trustgain-ad16c",
     "cb": "cambit-54153",
     "mb": "maxzobit",
-    "ks": "cryptospace-4979e",
-    "sc": "satocoin-46f61",
-    "sk": "stackcoin-538b4"
+    "ks": "cryptospace-4979e"
   },
   "targets": {
     "cryptokneit": {
@@ -35,13 +33,6 @@
       "hosting": {
         "ks": [
           "kryptospacemanager"
-        ]
-      }
-    },
-    "stackcoin-538b4": {
-      "hosting": {
-        "sk": [
-          "stackcoinmanager"
         ]
       }
     }
