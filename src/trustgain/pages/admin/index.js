@@ -44,7 +44,7 @@ function AdminIndex(props) {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            Kryptospace admin
+            Stackcoin admin
           </Typography>
         </Toolbar>
       </AppBar>
