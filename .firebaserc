@@ -4,7 +4,8 @@
     "ck": "cryptokneit",
     "tg": "trustgain-ad16c",
     "cb": "cambit-54153",
-    "mb": "maxzobit"
+    "mb": "maxzobit",
+    "ks": "cryptospace-4979e"
   },
   "targets": {
     "cryptokneit": {
@@ -25,6 +26,13 @@
       "hosting": {
         "mb": [
           "maxzobitmanager"
+        ]
+      }
+    },
+    "cryptospace-4979e": {
+      "hosting": {
+        "ks": [
+          "kryptospace"
         ]
       }
     }
