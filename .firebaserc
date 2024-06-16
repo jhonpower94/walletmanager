@@ -5,7 +5,8 @@
     "tg": "trustgain-ad16c",
     "cb": "cambit-54153",
     "mb": "maxzobit",
-    "ks": "cryptospace-4979e"
+    "ks": "cryptospace-4979e",
+    "sk": "stackcoin-538b4"
   },
   "targets": {
     "cryptokneit": {
