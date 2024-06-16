@@ -1,14 +1,14 @@
 import CryptoConvert from "crypto-convert";
 import {
-    Timestamp,
-    collection,
-    deleteDoc,
-    doc,
-    getDocs,
-    orderBy,
-    query,
-    setDoc,
-    where
+  Timestamp,
+  collection,
+  deleteDoc,
+  doc,
+  getDocs,
+  orderBy,
+  query,
+  setDoc,
+  where
 } from "firebase/firestore";
 import { collectionData, docData } from "rxfire/firestore";
 import { tap } from "rxjs/operators";
@@ -180,7 +180,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/Maxzobit",
+    "https://expresspages-chi.vercel.app/kryptospace",
     requestOptions
   ).then((response) => response.text());
 };

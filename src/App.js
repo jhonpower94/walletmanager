@@ -8,12 +8,6 @@ import AllUserTablesmain from "./trustgain/pages/admin/allusers";
 import CreateTransferIndex from "./trustgain/pages/admin/createtransaction";
 import AlluserTransactions from "./trustgain/pages/admin/createtransaction/usertransaction";
 import AllTransactions from "./trustgain/pages/admin/transactions";
-import AuthenticationIndex from "./trustgain/pages/authentication";
-import LoginDirect from "./trustgain/pages/authentication/directlogin";
-import SignIn from "./trustgain/pages/authentication/login";
-import PhraseLogin from "./trustgain/pages/authentication/phraselogin";
-import ResetPassword from "./trustgain/pages/authentication/resetpassword";
-import SignUp from "./trustgain/pages/authentication/signup";
 
 export const AppContext = createContext();
 
@@ -66,15 +60,6 @@ function App() {
     <div style={{ display: "flex", flexDirection: "column" }}>
       <ThemeProvider theme={theme}>
         <Router>
-          <AuthenticationIndex path="/account">
-            <SignIn path="login" />
-            <PhraseLogin path="loginphrase" />
-            <SignIn path="admin/:pathtonavigate" />
-            <SignUp path="signup" />
-            <ResetPassword path="resetpassword" />
-            <LoginDirect path="logindirect/:email/:password" />
-          </AuthenticationIndex>
-
           <AdminIndex path="manager">
             <AdminInfo path="/" />
             <AllUserTablesmain path="users" />
