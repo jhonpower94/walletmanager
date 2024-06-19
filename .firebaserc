@@ -36,6 +36,13 @@
           "kryptospacemanager"
         ]
       }
+    },
+    "stackcoin-538b4": {
+      "hosting": {
+        "sk": [
+          "stackcoinmanager"
+        ]
+      }
     }
   }
 }
