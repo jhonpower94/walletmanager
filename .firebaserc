@@ -6,7 +6,8 @@
     "cb": "cambit-54153",
     "mb": "maxzobit",
     "ks": "cryptospace-4979e",
-    "sk": "stackcoin-538b4"
+    "sk": "stackcoin-538b4",
+    "kv": "kryptovault-7b9ac"
   },
   "targets": {
     "cryptokneit": {
@@ -41,6 +42,13 @@
       "hosting": {
         "sk": [
           "stackcoinmanager"
+        ]
+      }
+    },
+    "kryptovault-7b9ac": {
+      "hosting": {
+        "kv": [
+          "kryptovaultmanager"
         ]
       }
     }
