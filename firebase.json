@@ -1,6 +1,6 @@
 {
   "hosting": [{
-    "target": "kv",
+    "target": "b2b",
     "public": "build",
     "ignore": [
       "firebase.json",

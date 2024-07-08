@@ -45,7 +45,7 @@ function DrawerMenu({ action }) {
         </ListItemIcon>
         <ListItemText
           sx={{ my: 0 }}
-          primary="Kryptovault"
+          primary="Block2bit"
           primaryTypographyProps={{
             fontSize: 25,
             fontWeight: "medium",

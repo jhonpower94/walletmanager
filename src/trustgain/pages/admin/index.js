@@ -44,7 +44,7 @@ function AdminIndex(props) {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-           Kryptovault admin
+           Block2bit admin
           </Typography>
         </Toolbar>
       </AppBar>

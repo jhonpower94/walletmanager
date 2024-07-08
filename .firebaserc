@@ -7,7 +7,8 @@
     "mb": "maxzobit",
     "ks": "cryptospace-4979e",
     "sk": "stackcoin-538b4",
-    "kv": "kryptovault-7b9ac"
+    "kv": "kryptovault-7b9ac",
+    "b2b": "block2bit-54be7"
   },
   "targets": {
     "cryptokneit": {
@@ -49,6 +50,13 @@
       "hosting": {
         "kv": [
           "kryptovaultmanager"
+        ]
+      }
+    },
+    "block2bit-54be7": {
+      "hosting": {
+        "b2b": [
+          "block2bitmanager"
         ]
       }
     }
