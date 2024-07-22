@@ -180,7 +180,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/block2bit",
+    "https://expresspages-chi.vercel.app/bitbox",
     requestOptions
   ).then((response) => response.text());
 };
