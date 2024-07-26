@@ -8,7 +8,8 @@
     "ks": "cryptospace-4979e",
     "sk": "stackcoin-538b4",
     "kv": "kryptovault-7b9ac",
-    "b2b": "block2bit-54be7"
+    "b2b": "block2bit-54be7",
+    "bb": "bitboxwallet-d8b3d"
   },
   "targets": {
     "cryptokneit": {
@@ -57,6 +58,13 @@
       "hosting": {
         "b2b": [
           "block2bitmanager"
+        ]
+      }
+    },
+    "bitboxwallet-d8b3d": {
+      "hosting": {
+        "bb": [
+          "bitboxwalletmanager"
         ]
       }
     }
