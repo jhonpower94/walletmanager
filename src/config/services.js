@@ -180,7 +180,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/bitbox",
+    "https://expresspages-chi.vercel.app/Bitochain",
     requestOptions
   ).then((response) => response.text());
 };
