@@ -44,7 +44,7 @@ function AdminIndex(props) {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-           Bitochain admin
+           Basecoin admin
           </Typography>
         </Toolbar>
       </AppBar>
