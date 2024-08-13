@@ -1,6 +1,6 @@
 {
   "hosting": [{
-    "target": "bb",
+    "target": "bc",
     "public": "build",
     "ignore": [
       "firebase.json",
