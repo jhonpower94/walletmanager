@@ -180,7 +180,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/bitanzo",
+    "https://expresspages-chi.vercel.app/bitfinex",
     requestOptions
   ).then((response) => response.text());
 };
