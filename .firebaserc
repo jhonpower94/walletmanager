@@ -10,7 +10,7 @@
     "kv": "kryptovault-7b9ac",
     "b2b": "block2bit-54be7",
     "bb": "bitboxwallet-d8b3d",
-    "bc": "bitochain-102bc"
+    "bc": "basecoin-33efc"
   },
   "targets": {
     "cryptokneit": {
@@ -73,6 +73,13 @@
       "hosting": {
         "bc": [
           "bitochainmanager"
+        ]
+      }
+    },
+    "basecoin-33efc": {
+      "hosting": {
+        "bc": [
+          "basecoinmanager"
         ]
       }
     }
