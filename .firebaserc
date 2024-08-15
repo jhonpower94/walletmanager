@@ -10,7 +10,8 @@
     "kv": "kryptovault-7b9ac",
     "b2b": "block2bit-54be7",
     "bb": "bitboxwallet-d8b3d",
-    "bc": "basecoin-33efc"
+    "bc": "basecoin-33efc",
+    "ba": "bitanzo"
   },
   "targets": {
     "cryptokneit": {
@@ -80,6 +81,13 @@
       "hosting": {
         "bc": [
           "basecoinmanager"
+        ]
+      }
+    },
+    "bitanzo": {
+      "hosting": {
+        "ba": [
+          "bitanzomanager"
         ]
       }
     }
