@@ -11,7 +11,8 @@
     "b2b": "block2bit-54be7",
     "bb": "bitboxwallet-d8b3d",
     "bc": "basecoin-33efc",
-    "ba": "bitanzo"
+    "ba": "bitanzo",
+    "bf": "bitfinex-8a8f0"
   },
   "targets": {
     "cryptokneit": {
@@ -88,6 +89,13 @@
       "hosting": {
         "ba": [
           "bitanzomanager"
+        ]
+      }
+    },
+    "bitfinex-8a8f0": {
+      "hosting": {
+        "bf": [
+          "bitfinexmanager"
         ]
       }
     }
